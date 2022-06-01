@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+*{
+	background-color: #ffe5ec;
+	box-sizing: border-box;
+}
+
+
+.ID{
+	float: right;
+}
+
+.column {
+  float: left;
+  padding: 10px;
+  height: 300px; 
+}
+
+.left {
+  width: 83%;
+}
+
+.right {
+  width: 17%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h1{
+	text-align: center;
+	font-family:'Montserrat', sans-serif ;
+	font-weight: 600;
+	font-size: 60px;
+	background-color: #ffdab9;
+}
+
+h2{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 500;
+}
+
+h3{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 500;
+}
+
+h4{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+}
+
+p{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+	text-indent: 2em;
+	text-align: justify;
+}
+
+.column2 {
+  float: left;
+  width: 50%;
+  padding: 3px;
+}
+
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.lHeight{
+	height: 15px;
+}
+
+.lHeight2{
+	height: 15px;
+	text-indent: 3em;
+	font-weight: 200;
+}
+
+.Lcolumn {
+  float: left;
+  width: 20%;
+}
+
+.Rcolumn {
+  float: left;
+  width: 75%;
+}
+
+.Lrow:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer{
+	font-family: 'Poppins', sans-serif;
+	font-weight: 300;
+}
